@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>A3E31FF0-200C-454A-BDF8-C973E5C2926C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Florida-State-Football-iOS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>44782B55E269B7B1E1F4FC0832F738AE2AD3A10D</key>
 		<string>https://github.com/Lcarvajal/FSU-Football-iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Florida-State-Football-iOS.xcodeproj/project.xcworkspace</string>
+	<string>Florida-State-Football-iOS.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>44782B55E269B7B1E1F4FC0832F738AE2AD3A10D</key>

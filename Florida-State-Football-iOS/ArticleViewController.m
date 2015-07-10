@@ -9,7 +9,10 @@
 #import "ArticleViewController.h"
 
 @interface ArticleViewController ()
+
 @property (strong, nonatomic) IBOutlet UIWebView *articleView;
+
+- (IBAction)backButtonAction:(id)sender;
 
 @end
 
@@ -26,4 +29,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)backButtonAction:(id)sender {
+    
+    NSLog(@"back");
+    
+    // Go back to all news articles on FSU Football.
+    [self dismissViewControllerAnimated:YES completion:^{}];
+}
 @end
