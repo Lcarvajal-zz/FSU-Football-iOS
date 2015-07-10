@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Lukas Carvajal. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ScoresViewController.h"
 
-@interface SecondViewController ()
+@interface ScoresViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation ScoresViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

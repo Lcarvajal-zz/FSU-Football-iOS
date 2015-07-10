@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  SecondViewController.h
 //  Florida-State-Football-iOS
 //
 //  Created by Lukas Carvajal on 7/10/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface ScoresViewController : UIViewController
 
 
 @end
