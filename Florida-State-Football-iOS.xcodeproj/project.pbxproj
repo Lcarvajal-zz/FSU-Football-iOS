@@ -19,6 +19,8 @@
 		806690E71B5014E200DE9CD5 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806690E51B5014E200DE9CD5 /* NewsTableViewController.m */; };
 		806690EA1B50164E00DE9CD5 /* FSUArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 806690E91B50164E00DE9CD5 /* FSUArticle.m */; };
 		806690EF1B5019E400DE9CD5 /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806690EE1B5019E400DE9CD5 /* RadioViewController.m */; };
+		806690F51B50307E00DE9CD5 /* ScoresTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806690F41B50307E00DE9CD5 /* ScoresTableViewController.m */; };
+		806690F81B5030FB00DE9CD5 /* FSUGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 806690F71B5030FB00DE9CD5 /* FSUGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		806690E91B50164E00DE9CD5 /* FSUArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSUArticle.m; sourceTree = "<group>"; };
 		806690ED1B5019E400DE9CD5 /* RadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioViewController.h; sourceTree = "<group>"; };
 		806690EE1B5019E400DE9CD5 /* RadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioViewController.m; sourceTree = "<group>"; };
+		806690F31B50307E00DE9CD5 /* ScoresTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoresTableViewController.h; sourceTree = "<group>"; };
+		806690F41B50307E00DE9CD5 /* ScoresTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoresTableViewController.m; sourceTree = "<group>"; };
+		806690F61B5030FB00DE9CD5 /* FSUGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSUGame.h; sourceTree = "<group>"; };
+		806690F71B5030FB00DE9CD5 /* FSUGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSUGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,8 @@
 			children = (
 				806690E81B50164E00DE9CD5 /* FSUArticle.h */,
 				806690E91B50164E00DE9CD5 /* FSUArticle.m */,
+				806690F61B5030FB00DE9CD5 /* FSUGame.h */,
+				806690F71B5030FB00DE9CD5 /* FSUGame.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -156,6 +164,8 @@
 				806690E51B5014E200DE9CD5 /* NewsTableViewController.m */,
 				806690ED1B5019E400DE9CD5 /* RadioViewController.h */,
 				806690EE1B5019E400DE9CD5 /* RadioViewController.m */,
+				806690F31B50307E00DE9CD5 /* ScoresTableViewController.h */,
+				806690F41B50307E00DE9CD5 /* ScoresTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -261,12 +271,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				806690E71B5014E200DE9CD5 /* NewsTableViewController.m in Sources */,
+				806690F51B50307E00DE9CD5 /* ScoresTableViewController.m in Sources */,
 				806690E61B5014E200DE9CD5 /* ArticleViewController.m in Sources */,
 				806690C51B5013FF00DE9CD5 /* ScoresViewController.m in Sources */,
 				806690BF1B5013FF00DE9CD5 /* AppDelegate.m in Sources */,
 				806690C21B5013FF00DE9CD5 /* HomeViewController.m in Sources */,
 				806690BC1B5013FF00DE9CD5 /* main.m in Sources */,
 				806690EF1B5019E400DE9CD5 /* RadioViewController.m in Sources */,
+				806690F81B5030FB00DE9CD5 /* FSUGame.m in Sources */,
 				806690EA1B50164E00DE9CD5 /* FSUArticle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
